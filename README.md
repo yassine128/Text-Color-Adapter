@@ -11,3 +11,10 @@
 ![Black Bgd](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/black%20bgd.png) </br>
 - Text adapts to white background </br>
 ![White Bgd](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/white%20bgd.png) </br>
+
+## What's next?
+- Building a system to train the model in real time
+- Building a better version of this model 
+- Building a Web app with a colour picker 
+  - Importing the model to Tensorflow.js 
+- Adding more colours than black and white
