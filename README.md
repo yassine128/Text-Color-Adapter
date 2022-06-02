@@ -3,6 +3,6 @@
 # <h2> Documentation Used </h2>
 
 <u>
-  <li>[Tensorflow Doc](https://www.tensorflow.org/tutorials/keras/regression)</li>
-  <li>[Pandas Doc](https://pandas.pydata.org/docs/)</li>
+  <a href="https://www.tensorflow.org/tutorials/keras/regression">Tensorflow Doc</a>
+  <a href="https://pandas.pydata.org/docs/">Pandas Doc</a>
 </u>
