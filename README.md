@@ -8,6 +8,6 @@
 
 <h2> Examples </h2>
 -Text adapts to black background
-![Black Bgd](https://tinyurl.com/y27xa6e6)
+![Black Bgd](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/black%20bgd.png)
 -Text adapts to white background
-![White Bgd](https://tinyurl.com/ycytbhrp)
+![White Bgd](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/white%20bgd.png)
