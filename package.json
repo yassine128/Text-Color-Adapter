@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "color-matching",
+  "version": "1.0.0",
+  "description": "<h2> Documentation Used </h2>\r <u>\r   <li><a href=\"https://www.tensorflow.org/tutorials/keras/regression\">Tensorflow Doc</a></li>\r   <li><a href=\"https://pandas.pydata.org/docs/\">Pandas Doc</a></li>\r </u>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassine128/Text-Color-Adapter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassine128/Text-Color-Adapter/issues"
+  },
+  "homepage": "https://github.com/yassine128/Text-Color-Adapter#readme",
+  "dependencies": {
+    "mathjs": "^10.6.1"
+  }
+}
