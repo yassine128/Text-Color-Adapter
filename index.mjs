@@ -3,8 +3,6 @@
 
     Will have to write a json file where all the data will be saved and then use a python script to make it work. 
 */
-
-
 var model = await tf.loadLayersModel('saved_model/modeljs/model.json'); // Load the js model
 
 /**
@@ -39,42 +37,17 @@ function main(){
     } 
 }
 
-function onBatchEnd(batch, logs) {
-    console.log('Accuracy', logs.acc);
-}  
+/**
+ * Function that will transform the data from Map to Json
+ * @param {*} newData Map
+ */
+function MapToJson(newData) {
+    var obj = Object.fromEntries(newData);
+    var jsonString = JSON.stringify(obj);
 
-function trainNewData(newData) {
-    let data = [];
-    let labels = []; 
+    console.log(jsonString)
 
-    for (var [key, value] of newData.entries()) {
-        data.push(key);
-        labels.push(value);
-    }
-
-    data = tf.tensor2d(data);
-    labels = tf.tensor1d(labels);
-    
-    
-    const learningRate = 0.01;
-    const optimizer = tf.train.adagrad(learningRate);
-    
-    
-
-    model.compile({
-        optimizer: optimizer,
-        loss: 'meanSquaredError',
-        metrics: ['accuracy']
-    });
-
-
-    model.fit(data, labels, {
-        epochs: 305,
-        batchSize: 32,
-        callbacks: {onBatchEnd}
-    }).then(info => {
-        console.log('Final accuracy', info.history.acc);
-    });
+    //From here we will need to start the python script and send the jsonString 
 }
 
 /**
@@ -105,8 +78,7 @@ function btnClick(Btn, i, listOfDefaultColors, newData){
         document.getElementById('B1').style.display = 'none';
         document.getElementById('B2').style.display = 'none';
 
-        console.log(newData)
-        trainNewData(newData);
+        MapToJson(newData);
     }
 }
 
