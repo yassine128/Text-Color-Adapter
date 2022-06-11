@@ -7,3 +7,36 @@ input[type="color"]{
 #ht1 {
   color: white; 
 }
+
+#choiceBox {   
+  position: absolute;
+  top: 45%;
+  left: 32%;
+    
+  margin: auto;
+}
+
+
+#display {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+    
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#textCol {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#colorPicked {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+    
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
