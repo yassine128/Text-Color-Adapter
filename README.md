@@ -32,4 +32,5 @@ I wanted to create a project that uses my knowledge of python and tensorflow pro
 ![White Bgd](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/white%20bgd.png) </br>
 
 ## What is next
-- Building a system to train the model in real time
+- Building a system to train the model in real time.
+- The training model part of the website doesn't work yet so I pre-trained the model on my machine.
