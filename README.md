@@ -13,6 +13,9 @@
   <li><a href="https://github.com/yassine128/Text-Color-Adapter#what-is-next">What's next</a></li>
 </u>
 
+## Why this project
+I wanted to create a project that uses my knowledge of python and tensorflow programming while learning javascript
+
 ## Screenshots
 - Main page to train the model </br>
 ![webpage1](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/webpage1.png) </br>
