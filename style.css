@@ -10,12 +10,17 @@ input[type="color"]{
 
 #choiceBox {   
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 32%;
     
   margin: auto;
 }
 
+#credit {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  top: 95%;
+  position: absolute;
+}
 
 #display {
   position: absolute;
@@ -28,6 +33,11 @@ input[type="color"]{
 }
 
 #textCol {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#txtChoice {
+  text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 

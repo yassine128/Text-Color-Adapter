@@ -77,7 +77,7 @@ function btnClick(Btn, i, listOfDefaultColors, newData){
         document.getElementById('display').style.display = 'block';
         document.getElementById('B1').style.display = 'none';
         document.getElementById('B2').style.display = 'none';
-
+        document.getElementById('txtChoice').style.display = 'none';
         MapToJson(newData);
     }
 }

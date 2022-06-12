@@ -6,15 +6,25 @@
   <li><a href="https://pandas.pydata.org/docs/">Pandas Doc</a></li>
 </u>
 
+## Table of contents
+<u>
+  <li><a href="https://github.com/yassine128/Text-Color-Adapter#screenshots">Screenshots</a></li>
+  <li><a href="https://github.com/yassine128/Text-Color-Adapter#examples">Examples of the model</a></li>
+  <li><a href="https://github.com/yassine128/Text-Color-Adapter#what-is-next">What's next</a></li>
+</u>
+
+## Screenshots
+- Main page to train the model </br>
+![webpage1](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/webpage1.png) </br>
+- Page to test the model </br>
+![webpage2](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/webpage2.png) </br>
+
+
 ## Examples
 - Text adapts to black background </br>
 ![Black Bgd](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/black%20bgd.png) </br>
 - Text adapts to white background </br>
 ![White Bgd](https://raw.githubusercontent.com/yassine128/Text-Color-Adapter/main/assets/white%20bgd.png) </br>
 
-## What's next?
+## What is next
 - Building a system to train the model in real time
-- Building a better version of this model 
-- Building a Web app with a colour picker 
-  - Importing the model to Tensorflow.js 
-- Adding more colours than black and white
